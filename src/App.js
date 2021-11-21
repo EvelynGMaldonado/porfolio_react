@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import Work from "./components/Work";
+// import Work from "./components/Work";
 import Navbar from "./components/Navbar";
 // import AboutMe from "./components/AboutMe";
 // import ContactInfo from "./components/ContactInfo";

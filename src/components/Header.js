@@ -3,7 +3,7 @@ import '../styles/Header.css';
 // We use JSX curly braces to evaluate the style object
 
 const Header = () => {
-  return (
+return (
     <header>
     <h1>Evelyn Maldonado</h1>
     
@@ -24,7 +24,7 @@ const Header = () => {
         </ul>
     </nav>
 </header>
-  );
+);
 }
 
 export default Header;
