@@ -1,0 +1,15 @@
+:root{
+  --pink: #b91a64;
+  --white: white;
+  --gray: lightgray;
+}
+body {
+}
+.section {
+  background: #f3e5f5;
+  padding: 20px;
+}
+
+.section h2 {
+  text-align: center;
+}
