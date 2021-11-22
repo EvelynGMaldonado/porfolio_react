@@ -3,7 +3,6 @@
     --white: white;
     --gray: lightgray;
 }
-
 h2 {
     color: var(--pink);
 }

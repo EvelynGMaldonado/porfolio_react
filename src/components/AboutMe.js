@@ -7,7 +7,7 @@ const styles ={
 
 const AboutMe = () => {
     return (
-        <div className="card mb-3 content" style={styles.contentStyles}>
+        <div className="card mb-3 content">
             <div className="row no-gutters">
                 <div className="col-md-4 content-section" id="about-me">
                     <h2 className="text-center mt-3">About me</h2>

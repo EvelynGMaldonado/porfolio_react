@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./components/Header";
-// import Work from "./components/Work";
+import Work from "./components/Work";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
-// import ContactInfo from "./components/ContactInfo";
-// import Footer from "./components/Footer";
+import ContactInfo from "./components/ContactInfo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Navbar />
       <AboutMe />
-      {/* <Work /> */}
-      {/* <ContactInfo /> */}
-      {/* <Footer /> */}
+      <Work />
+      <ContactInfo />
+      <Footer />
       
 
     </>

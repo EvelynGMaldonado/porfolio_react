@@ -4,7 +4,7 @@ import "../styles/ContactInfo.css";
 
 const ContactInfo = () => {
     return (
-        <div class="card mb-3 content" style="max-width:100%;">
+        <div class="card mb-3 content" style={{maxWidth: "100%"}}>
         <div class="row no-gutters">
             <div class="col-md-4 content-section" id="contact-me">
                 <h2 class="text-center mt-3">Contact me</h2>
