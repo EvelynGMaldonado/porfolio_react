@@ -3,17 +3,18 @@
     --white: white;
     --gray: lightgray;
 }
-body {
-
+h2 {
+    color: var(--pink);
 }
 .content{
     border-bottom:transparent;
     border-top: transparent;
     border-left: transparent;
 }
-h2 {
-    color: var(--pink);
+.card-body {
+    border-left: var(--pink) solid 10px;
 }
+
 #background {
     background-color: var(--gray);
 }
