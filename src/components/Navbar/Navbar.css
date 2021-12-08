@@ -106,3 +106,40 @@ header nav ul li a {
   text-decoration: none;
   margin: auto;
 }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .responsive{
+      display: none;
+  }
+  /* .fullNavbar {
+    display: none;
+  } */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .responsive2 {
+    display:none;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .responsive2 {
+    display:none;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .responsive2 {
+    display:none;
+  }
+
+}

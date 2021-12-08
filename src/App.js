@@ -9,12 +9,14 @@ import ContactInfo from "./components/ContactInfo/ContactInfo";
 import Footer from "./components/Footer/Footer";
 // import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume/Resume";
+// import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
 
   return (
     <>
     <Router>
+    {/* <PortfolioContainer /> */}
       <Navbar />
       <Routes>
         <Route exact path="/" element= {<Home/>} />
