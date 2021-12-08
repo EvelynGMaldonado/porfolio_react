@@ -1,4 +1,4 @@
-import '../styles/Header.css';
+import '../Header/Header.css';
 
 // We use JSX curly braces to evaluate the style object
 

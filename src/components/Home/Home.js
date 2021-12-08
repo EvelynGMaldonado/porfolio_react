@@ -1,11 +1,7 @@
-import '../styles/AboutMe.css';
-const styles ={
-    contentStyles: {
-        maxWidth:"100%",
-    },
-};
+import './Home.css';
+import { Link } from 'react-router-dom';
 
-const AboutMe = () => {
+const Home = () => {
     return (
         <div className="card mb-3 content">
             <div className="row no-gutters">
@@ -22,4 +18,4 @@ const AboutMe = () => {
         </div>
     );
 }
-export default AboutMe;
+export default Home;

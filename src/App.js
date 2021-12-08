@@ -1,23 +1,30 @@
-import React from "react";
-import Header from "./components/Header";
-import Work from "./components/Work";
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import ContactInfo from "./components/ContactInfo";
-import Footer from "./components/Footer";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Header from "./components/Header/Header";
+import Projects from "./components/Projects/Projects";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import ContactInfo from "./components/ContactInfo/ContactInfo";
+import Footer from "./components/Footer/Footer";
+// import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume/Resume";
 
 function App() {
+
   return (
     <>
-      <Header />
+    <Router>
       <Navbar />
-      <AboutMe />
-      <Work />
-      <ContactInfo />
-      <Footer />
-      
-
-    </>
+      <Routes>
+        <Route exact path="/" element= {<Home/>} />
+        <Route exact path="/projects" element={<Projects/>}/>
+        <Route exact path="/resume" element={<Resume/>}/>
+        <Route exact path="/contact-info" element={<ContactInfo/>} />
+      </Routes>
+      <Footer/>     
+      </Router>
+      </>
   );
 }
 
