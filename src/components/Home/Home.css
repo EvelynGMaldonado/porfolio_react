@@ -14,6 +14,9 @@ h2 {
 .card-body {
     border-left: var(--pink) solid 10px;
 }
+.card-text {
+    line-height: 2;
+}
 
 #background {
     background-color: var(--gray);

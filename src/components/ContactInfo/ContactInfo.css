@@ -14,6 +14,7 @@ h2 {
 
 .card-body {
     border-left: var(--pink) solid 10px;
+    line-height: 2;
 }
 .contact-section{
 

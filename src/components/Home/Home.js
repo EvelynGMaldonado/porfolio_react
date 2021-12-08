@@ -10,8 +10,11 @@ const Home = () => {
                 </div>
                 <div className="col-md-8">
                     <div className="card-body rounded" id="background">
-                        <p className="card-text">The About Me or Profile section of your portfolio, is a short summary about yourself in relation to the type of role you are applying for. 
-                In the sample portfolio, the student has highlighted their program, the projects they’ve worked on and their specific area of interest in their field.</p>
+                        <p className="card-text">My name is Evelyn, I am a Bilingual Full Stack Web-developer certified by University of Washington. 
+                        I've had the opportunity to enrich my knowledge and work with different technologies such as Visual Studio, Git/Github, 
+                        Heroku, Nodejs, Express, MySQL, Sequelize, Graphql, MongoDB, Handlebars, React, Bootstrap, Jquery, HTML, CSS and JavaScript . 
+                        I feel comfortable working both front and back and I really enjoy sharing and increasing my knowledge, as well as teamwork. 
+                        I consider myself a fast learner, I like challenges and achieving my goals.</p>
                     </div>
                 </div>
             </div>

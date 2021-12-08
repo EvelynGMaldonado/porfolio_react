@@ -7,7 +7,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const Resume = () => {
 return (
     <div className="res">
-        <h2 className='heading'>Resume</h2>
+        <h2 className=''>Resume</h2>
         
         <Document
             file={resume}

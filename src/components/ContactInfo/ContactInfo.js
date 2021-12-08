@@ -15,7 +15,7 @@ const ContactInfo = () => {
                     <li><strong> Email:</strong> <a href="#">evelyn.gmaldonado@gmail.com</a></li>
                     <li><strong>GitHub:</strong> <a href="#">EvelynGMaldoando</a></li>
                     <li><strong> Phone number:</strong> <a href="#">206 399 7452</a></li>
-                    <li><strong>Resume:</strong> <a href="#">Coming soon!</a></li>
+                    <li><strong>Resume:</strong> <a href="https://drive.google.com/file/d/1Sqqs20OusF5f8EVDRKvQxqN0MWf4NeXc/view?usp=sharing" >Evelyn G Maldonado Resume</a></li>
                 </ul>
             </div>
             </div>
